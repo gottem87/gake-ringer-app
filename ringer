@@ -1,0 +1,11 @@
+
+<!doctype html>
+<title>Fake ringer app</title>
+<link rel="stylesheet" href="/css/profile1.css">
+<h1>Ringer app</h1>
+<button onclick="if (!window.__cfRLUnblockHandlers) return false; ring.play()" data-cf-modified-91f1e88d35eb681d54d99352-="">play</button>
+<button onclick="if (!window.__cfRLUnblockHandlers) return false; ring.pause();ring.currentTime = 0" data-cf-modified-91f1e88d35eb681d54d99352-="">stop</button>
+<script type="91f1e88d35eb681d54d99352-text/javascript">
+var ring = new Audio('/ring/1.mp3')
+</script>
+<script src="/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="91f1e88d35eb681d54d99352-|49" defer=""></script><script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"rayId":"69b8c3dee8842970","token":"47357d7ca32c4cea823d6d6379c0215e","version":"2021.9.0","si":100}'></script>
